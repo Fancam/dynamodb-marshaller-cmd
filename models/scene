@@ -1,0 +1,101 @@
+{
+    "_id" : "5512e8922a059343ee53cb55",
+    "name" : "Daytona 2015",
+    "active_tileset" : 0,
+    "tilesets" : [ 
+        {
+            "name" : "20150222_daytona_v3_flash",
+            "url" : "http://9d1c1e5b4404e00c2be0-99259f91b3a4b2efc035473788b04c8f.r11.cf1.rackcdn.com/20150222_daytona_v3_flash",
+            "xml" : {
+                "krpano" : {
+                    "-version" : "1.18",
+                    "include" : {
+                        "-url" : "skin/defaultskin.xml"
+                    },
+                    "view" : {
+                        "-hlookat" : "0",
+                        "-vlookat" : "0",
+                        "-maxpixelzoom" : "1.0",
+                        "-fovmax" : "150",
+                        "-limitview" : "auto"
+                    },
+                    "preview" : {
+                        "-url" : "20150222_daytona_v3_flash/preview.jpg"
+                    },
+                    "image" : {
+                        "-type" : "CUBE",
+                        "-multires" : "true",
+                        "-tilesize" : "512",
+                        "level" : [ 
+                            {
+                                "-tiledimagewidth" : "127324",
+                                "-tiledimageheight" : "127324",
+                                "-devices" : "html5",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l09_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "63662",
+                                "-tiledimageheight" : "63662",
+                                "-devices" : "html5",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l08_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "31832",
+                                "-tiledimageheight" : "31832",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l07_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "15872",
+                                "-tiledimageheight" : "15872",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l06_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "7936",
+                                "-tiledimageheight" : "7936",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l05_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "3968",
+                                "-tiledimageheight" : "3968",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l04_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "1984",
+                                "-tiledimageheight" : "1984",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l03_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "1024",
+                                "-tiledimageheight" : "1024",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l02_%s_%v_%h.jpg"
+                                }
+                            }, 
+                            {
+                                "-tiledimagewidth" : "512",
+                                "-tiledimageheight" : "512",
+                                "cube" : {
+                                    "-url" : "20150222_daytona_v3_flash/l01_%s_%v_%h.jpg"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

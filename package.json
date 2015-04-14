@@ -1,0 +1,20 @@
+{
+  "name": "dynamodb-marshaller-cmd",
+  "version": "1.0.0",
+  "description": "command line version of dynamodb-marshaller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "json2dynamo": "json2dynamo.js",
+    "dynamo2json": "dynamo2json.js"
+  },
+  "dependencies": {
+    "dynamodb-marshaler": "^1.0.0",
+    "minimist": "^1.1.1"
+  }
+}
